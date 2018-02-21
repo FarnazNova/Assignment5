@@ -33,33 +33,7 @@ public class TwoHighestScore {
 			i++;
 		}
 		System.out.println("The highest score is " + max);
-		System.out.println("The second-highest score is " + max2);
-		/*
-		
-		String[] studentName = new String[studentNumber];
-		double[] studentScore = new double[studentNumber]; 
-		scan.nextLine();
-		try
-		{
-		for(int i = 0; i < studentName.length; i++)
-		{
-		System.out.println("What is the student's name? ");
-		studentName[i] =scan.nextLine();
-
-		System.out.println("What are the student's score?");
-		studentScore[i] = scan.nextDouble();
-		 }
-		}
-		catch(Exception ex) 
-		{
-			System.out.println("Error");
-		}
-		System.out.println("out");
-		
-		}
-		//System.out.println("done");
-		
-		*/
+		System.out.println("The second-highest score is " + max2);		
 
 	}
 }
